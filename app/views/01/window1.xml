@@ -1,0 +1,9 @@
+<Alloy>
+  <NavigationWindow module='xp.ui' id='nav'>
+    <Window onOpen='openWin'>
+
+      <Button id='btn' onClick='clickFunc' />
+
+    </Window>
+  </NavigationWindow>
+</Alloy>

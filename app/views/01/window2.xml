@@ -1,0 +1,7 @@
+<Alloy>
+  <Window id='win' onOpen='openWin'>
+
+    <Button id='btn' onClick='clickFunc' />
+
+  </Window>
+</Alloy>

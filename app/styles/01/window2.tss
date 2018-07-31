@@ -1,0 +1,12 @@
+/*
+*/
+'#win': {
+  backgroundColor: 'blue'
+}
+
+/*
+*/
+'#botao': {
+  title: 'Fechar segunda window'
+  , font: { fontSize: 24 }
+}
