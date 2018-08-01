@@ -1,0 +1,28 @@
+
+/*
+*/
+"#drawer": {
+	openDrawerGestureMode: "OPEN_MODE_ALL",
+	closeDrawerGestureMode: "CLOSE_MODE_ALL",
+	leftDrawerWidth: 200,
+	rightDrawerWidth: 200,
+
+	// use DrawerLayout for Android
+	drawerLayout: true
+}
+
+/*
+*/
+'#btnLeft': {
+  top: 40
+  , left: '5%'
+  , title: 'Abrir left Window'
+}
+
+/*
+*/
+'#btnRight': {
+  top: 40
+  , right: '5%'
+  , title: 'Abrir Right Window'
+}

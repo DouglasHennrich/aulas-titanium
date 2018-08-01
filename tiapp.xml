@@ -39,14 +39,25 @@
         <false/>
         <key>UIStatusBarStyle</key>
         <string>UIStatusBarStyleDefault</string>
+
+        <!--  -->
+        <key>NSLocationAlwaysUsageDescription</key>
+          <string>
+              Specify the reason for accessing the user's location information.
+              This appears in the alert dialog when asking the user for permission to
+              access their location.
+          </string>
       </dict>
     </plist>
   </ios>
-  <android
-    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <android xmlns:android="http://schemas.android.com/apk/res/android">
   </android>
+
   <modules>
-    
+    <module>ti.map</module>
+    <module platform="iphone">dk.napp.drawer</module>
+    <module platform="android">dk.napp.drawer</module>
   </modules>
   <deployment-targets>
     <target device="android">true</target>
@@ -57,21 +68,4 @@
   <plugins>
     <plugin version="1.0">ti.alloy</plugin>
   </plugins>
-  <property name="appc-app-id" type="string">5b5b10eca27f9503eeb8ec5f</property>
-  <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
-  <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
-  <property name="acs-oauth-secret-development" type="string">AIXxiq11uyXyCtcAQXCy0QSSS5AcOj1A</property>
-  <property name="acs-oauth-key-development" type="string">jYBa2BHr6FCst2HtEAOn1OBZlGsOqcaH</property>
-  <property name="acs-api-key-development" type="string">bUJGfgYxLKWNBZz0r1cFQrC4uSHRj6UA</property>
-  <property name="acs-username-development" type="string">appc_app_user_dev</property>
-  <property name="acs-password-development" type="string">X4M8d5xftKcjEfHvfC</property>
-  <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
-  <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
-  <property name="acs-oauth-secret-production" type="string">WeDO1oXVQCuC18KNy8bTH5wUPZrM9BrA</property>
-  <property name="acs-oauth-key-production" type="string">fMGhQqj4UMIHVXujNpXhhOKbLqL6RN4o</property>
-  <property name="acs-api-key-production" type="string">3BrENDN7o3766S2fCJW01hlyHUKB0LBQ</property>
-  <property name="acs-username-production" type="string">appc_app_user</property>
-  <property name="acs-password-production" type="string">xGmu2xPFsMG7oYJeps</property>
-  <property name="appc-org-id" type="string">100028425</property>
-  <property name="appc-creator-user-id" type="string">0231d9f1-b24c-4455-824c-a781e694dd19</property>
 </ti:app>

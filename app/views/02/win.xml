@@ -1,0 +1,9 @@
+<Alloy>
+  <NavigationWindow module='xp.ui' id='nav'>
+    <Window id='win' onOpen='openWin'>
+
+      <Module id='mapview' module='ti.map' method='createView' />
+
+    </Window>
+  </NavigationWindow>
+</Alloy>

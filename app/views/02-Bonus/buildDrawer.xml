@@ -1,0 +1,20 @@
+<Alloy>
+  <Widget id='drawer' src='nl.fokkezb.drawer'>
+
+    <Window module='xp.ui' role='leftWindow'>
+      <Label text='Left Window' />
+    </Window>
+
+    <NavigationWindow module='xp.ui' id='nav' role='centerWindow'>
+      <Window navBarHidden='true'>
+        <Button id='btnLeft' onClick='clickFunc' />
+        <Label text='Center Window' onClick='clickFunc' />
+        <Button id='btnRight' onClick='clickFunc' />
+      </Window>
+    </NavigationWindow>
+
+    <Window module='xp.ui' role='rightWindow'>
+      <Label text='Right Window' />
+    </Window>
+  </Widget>
+</Alloy>

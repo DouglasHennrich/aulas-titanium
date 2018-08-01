@@ -1,0 +1,16 @@
+"#mapview" : {
+  region : {
+    latitude: 37.368122
+    , longitude: -121.913653
+    , latitudeDelta:0.01
+    , longitudeDelta:0.01
+  }
+}
+
+"#appcHQ" : {
+    latitude: 37.368122
+    , longitude: -121.913653
+    , title: 'Appcelerator Headquarters'
+    , subtitle: 'San Jose, CA'
+    , pincolor: Alloy.Globals.Map.ANNOTATION_RED
+}
