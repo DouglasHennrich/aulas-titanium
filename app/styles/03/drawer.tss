@@ -1,0 +1,17 @@
+/* ===============================
+@ Classes
+=============================== */
+
+/* ===============================
+@ IDs
+=============================== */
+/*
+*/
+"#drawer": {
+	openDrawerGestureMode: "OPEN_MODE_ALL",
+	closeDrawerGestureMode: "CLOSE_MODE_ALL",
+	leftDrawerWidth: 300,
+
+	// use DrawerLayout for Android
+	drawerLayout: true
+}

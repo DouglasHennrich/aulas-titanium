@@ -1,0 +1,11 @@
+<Alloy>
+  <Window onOpen='openWin' onClose='clean'>
+
+    <!--  -->
+    <Require src='/03/components/nav' id='navBar' />
+
+    <!--  -->
+    <Module module='ti.map' method='createView' id='map' />
+
+  </Window>
+</Alloy>

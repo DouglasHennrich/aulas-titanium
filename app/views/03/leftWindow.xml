@@ -1,0 +1,7 @@
+<Alloy>
+  <Window module='xp.ui' id='winLeft' onOpen='openWin'>
+
+
+
+  </Window>
+</Alloy>

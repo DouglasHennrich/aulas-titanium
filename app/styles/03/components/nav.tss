@@ -1,0 +1,35 @@
+/* ===============================
+@ Classes
+=============================== */
+
+/* ===============================
+@ IDs
+=============================== */
+/*
+*/
+'#holder': {
+  height: 60
+  , backgroundColor: 'blue'
+  , top: 0
+}
+
+/*
+*/
+'#title': {
+  left: '5%'
+  , right: '5%'
+  , textAlign: 'center'
+  , color: 'white'
+  , font: { fontSize: 18 }
+  , bottom: '20%'
+}
+
+/*
+*/
+'#backBtn': {
+  left: '5%'
+  , title: 'VOLTAR'
+  , color: '#000000'
+  , font: { fontSize: 16 }
+  , bottom: '10%'
+}

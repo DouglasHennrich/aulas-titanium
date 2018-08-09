@@ -1,0 +1,10 @@
+<Alloy>
+  <View id='holder'>
+
+    <Label if='$.args.titulo' id='title' />
+
+    <!-- BackBtn -->
+    <Button if='$.args.backBtn' id='backBtn' onClick='clickFunc' />
+
+  </View>
+</Alloy>

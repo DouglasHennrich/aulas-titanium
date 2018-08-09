@@ -4,7 +4,7 @@
 "#drawer": {
 	openDrawerGestureMode: "OPEN_MODE_ALL",
 	closeDrawerGestureMode: "CLOSE_MODE_ALL",
-	leftDrawerWidth: 200,
+	leftDrawerWidth: 350,
 	rightDrawerWidth: 200,
 
 	// use DrawerLayout for Android
@@ -14,9 +14,11 @@
 /*
 */
 '#btnLeft': {
-  top: 40
-  , left: '5%'
-  , title: 'Abrir left Window'
+  title: 'Abrir left Window'
+	, width: Ti.UI.SIZE
+	, backgroundColor: '#fff'
+	, left: 20
+	, top: 40
 }
 
 /*
@@ -25,4 +27,12 @@
   top: 40
   , right: '5%'
   , title: 'Abrir Right Window'
+}
+
+/*
+*/
+'#statusBar': {
+	top: 0
+	, height: 20
+	, backgroundColor: 'green'
 }

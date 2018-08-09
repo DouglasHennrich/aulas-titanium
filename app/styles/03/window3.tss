@@ -1,0 +1,19 @@
+/* ===============================
+@ Classes
+=============================== */
+
+/* ===============================
+@ IDs
+=============================== */
+/*
+*/
+'#win': {
+  backgroundGradient: {
+    type: 'radial',
+    startPoint: { x: 0, y: '50%' },
+    endPoint: { x: 0, y: 80 },
+    colors: [ 'red', 'blue'],
+    backfillStart: true
+  }
+  , backgroundColor: 'transparent'
+}

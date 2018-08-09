@@ -66,9 +66,9 @@ if (!OS_IOS) {
 exports.createNavigationWindow = function (args) {
     var navWin = OS_IOS ? Ti.UI.iOS.createNavigationWindow(args) : new NavigationWindow(args);
 
-    // App.Navigation = require('navigation')({
-    //   parent: navWin
-    // });
+    App.Navigation = require('navigation')({
+      parent: navWin
+    });
 
     return navWin;
 };

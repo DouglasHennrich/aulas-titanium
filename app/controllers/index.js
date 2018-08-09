@@ -1,4 +1,4 @@
 /*
 @
 */
-Alloy.createController('/02-Bonus/buildDrawer').getView().open();
+Alloy.createController('/03/drawer').getView().open();

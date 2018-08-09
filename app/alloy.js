@@ -2,7 +2,7 @@
 @ Globals
 */
 const App = {
-  Navigation: require('/navigation')
+  Navigation: null
 };
 
 /*

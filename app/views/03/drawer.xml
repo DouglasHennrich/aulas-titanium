@@ -1,0 +1,9 @@
+<Alloy>
+  <Widget src='nl.fokkezb.drawer' id='drawer'>
+
+    <Require src='/03/leftWindow' />
+
+    <Require src='/03/mainWindow' />
+
+  </Widget>
+</Alloy>
